@@ -23,7 +23,7 @@ export default function Nav() {
         <li>
           <Link to="/checkoutPage">
             <button className="cart-btn">
-              {cart.length} <i class="fa-solid fa-cart-shopping"></i> 
+              {cart.length} <i className="fa-solid fa-cart-shopping"></i> 
             </button>
           </Link>
         </li>

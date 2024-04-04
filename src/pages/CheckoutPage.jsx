@@ -9,7 +9,6 @@ export default function CheckoutPage() {
     <div className="checkout-card">
       <h1>Your cart</h1>
       <Checkout />
-
     </div>
   );
 }
