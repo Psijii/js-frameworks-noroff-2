@@ -1,0 +1,28 @@
+/* This is a CSS file for button styling */
+
+.primary,
+.secondary {
+  border: none;
+  background-color: rgb(91, 108, 157);
+  color: white;
+  cursor: pointer;
+  padding: 10px 15px 10px 15px;
+  width: 100%;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  border-radius: 2px;
+  margin-top: 10px;
+}
+
+.primary:hover {
+  background-color: #6e6fa4;
+}
+
+.secondary {
+  background-color: #69836a;
+}
+
+.secondary:hover {
+  background-color: rgb(120, 129, 154);
+}

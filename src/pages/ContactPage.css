@@ -1,0 +1,31 @@
+.contact-form {
+  max-width: 400px;
+  margin: auto;
+}
+
+.contact-form p {
+  color: red;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: -1px;
+}
+
+input {
+  border: 1px solid darkgray;
+  width: 400px;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  background-color: white;
+}
+
+input:focus {
+  border: rgb(40, 61, 125) solid 1px;
+}
+
+label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}
