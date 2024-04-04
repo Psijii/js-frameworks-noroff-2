@@ -1,4 +1,3 @@
-
 /**
  * Renders the checkout success page.
  * @returns {JSX.Element} The rendered checkout success page.

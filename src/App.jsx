@@ -1,4 +1,3 @@
-
 /**
  * The main component of the application.
  * Renders the layout and sets up the routes for different pages.
@@ -9,6 +8,7 @@ import {
   Routes, 
   Route 
 } from "react-router-dom";
+
 import Layout from "./components/Layout";
 import Contact from "./pages/ContactPage";
 import Home from "./pages/Home";

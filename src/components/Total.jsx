@@ -1,4 +1,3 @@
-
 /**
  * Component that displays the total amount in the cart.
  * @returns {JSX.Element} The Total component.

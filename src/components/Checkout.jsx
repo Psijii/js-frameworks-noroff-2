@@ -28,7 +28,7 @@ export default function Checkout() {
           <Payment />
         </div>
       ) : (
-        <h2 className="empty-cart">Your cart is empty!</h2>
+        <h2 className="empty-cart">Your cart is empty! Want to do some shopping?</h2>
       )}
 
       {cart?.length > 0 ? (
@@ -40,7 +40,7 @@ export default function Checkout() {
       ) : (
         <div className="empty-cart-btn">
           <Link to="/">
-            <button className={styles.primary}>Back to shopping</button>
+            <button className={styles.primary}>Back to EthernetShop.</button>
           </Link>
         </div>
       )}

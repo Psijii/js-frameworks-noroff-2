@@ -1,4 +1,3 @@
-
 /**
  * Renders a single cart item with its title and discounted price.
  * @param {Object} cartItem - The cart item object.
@@ -10,7 +9,6 @@ import React from "react";
 
 export default function CartProducts({ cartItem }) {
   const { title, discountedPrice } = cartItem;
-
 
   return (
     <div className="cart-item">

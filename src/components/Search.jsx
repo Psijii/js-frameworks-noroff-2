@@ -1,11 +1,11 @@
 import { useState } from "react";
-
 /**
  * SearchBar component that allows users to search for products.
  * @param {Object} props - The component props.
  * @param {Function} props.setSearchResults - The function to set the search results.
  * @returns {JSX.Element} - The rendered SearchBar component.
  */
+
 const SearchBar = ({ setSearchResults }) => {
   const [searchInput, setSearchInput] = useState("");
 
@@ -13,6 +13,7 @@ const SearchBar = ({ setSearchResults }) => {
    * Fetches data from the API and filters the results based on the search input.
    * @param {string} value - The search input value.
    */
+  
   const fetchData = (value) => {
     fetch("https://api.noroff.dev/api/v1/online-shop")
       .then((response) => response.json())
@@ -33,6 +34,7 @@ const SearchBar = ({ setSearchResults }) => {
    * Handles the change event of the search input.
    * @param {string} value - The new value of the search input.
    */
+
   const handleChange = (value) => {
     setSearchInput(value);
     fetchData(value);

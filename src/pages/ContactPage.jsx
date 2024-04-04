@@ -1,4 +1,3 @@
-
 /**
  * ContactPage component for displaying a contact form.
  *

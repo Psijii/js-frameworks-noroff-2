@@ -1,4 +1,3 @@
-
 /**
  * Renders a list of products.
  *

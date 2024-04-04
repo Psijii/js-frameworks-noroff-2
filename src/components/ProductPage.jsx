@@ -43,7 +43,7 @@ export default function SingleProduct({
         <div>
           <p>{description}</p>
           <p className="price-text">
-          <i class="fa-solid fa-tag"></i> {discountedPrice}{" "}
+          <i className="fa-solid fa-tag"></i> {discountedPrice}{" "}
             NOK
           </p>
           <p className="sale-text">
