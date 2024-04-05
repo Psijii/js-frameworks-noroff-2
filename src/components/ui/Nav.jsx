@@ -10,7 +10,9 @@ import "../../App.css";
 
 
 export default function Nav() {
-  const { cart } = useContext(CartContext);
+  const { cart } = useContext(CartContext) || { cart: [] }; // Provide a default value for cart if CartContext is undefined
+  const cartItemCount = cart.length;
+
   return (
     <nav>
       <ul>
@@ -23,7 +25,7 @@ export default function Nav() {
         <li>
           <Link to="/checkoutPage">
             <button className="cart-btn">
-              {cart.length} <i className="fa-solid fa-cart-shopping"></i> 
+              {cartItemCount} <i className="fa-solid fa-cart-shopping"></i> 
             </button>
           </Link>
         </li>
