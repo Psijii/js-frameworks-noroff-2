@@ -8,6 +8,8 @@
  * @returns {JSX.Element} The rendered review component.
  */
 
+import PropTypes from 'prop-types';
+
 export default function Review({ username, description, rating }) {
   return (
     <div className="review-container">
@@ -17,3 +19,9 @@ export default function Review({ username, description, rating }) {
     </div>
   );
 }
+
+Review.propTypes = {
+  username: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  rating: PropTypes.number.isRequired,
+};
