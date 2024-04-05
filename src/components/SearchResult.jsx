@@ -8,6 +8,7 @@
  * @returns {JSX.Element} The rendered SingleSearchResult component.
  */
 import { Link } from "react-router-dom";
+import PropTypes from 'prop-types';
 
 const SingleSearchResult = ({ searchResult }) => {
   return (
@@ -17,3 +18,10 @@ const SingleSearchResult = ({ searchResult }) => {
   );
 };
 export default SingleSearchResult;
+
+SingleSearchResult.propTypes = {
+  searchResult: PropTypes.shape({
+    id: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+  }).isRequired,
+};
