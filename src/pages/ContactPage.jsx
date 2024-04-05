@@ -62,7 +62,7 @@ export default function Form() {
       <input id="subject" name="subject" {...register("subject")} />
       {errors.subject && <p>{errors.subject.message}</p>}
       <label htmlFor="body">Message</label>
-      <input id="body" name="body" {...register("body")} />
+      <textarea id="body" name="body" {...register("body")} />
       {errors.body && <p>{errors.body.message}</p>}
       <input type="submit" value="Send" className={styles.secondary} />
     </form>
