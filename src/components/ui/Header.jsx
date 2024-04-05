@@ -8,6 +8,12 @@
  */
 import { styled } from "styled-components";
 
+const StyledLogo = styled.img`
+  width: 50px; 
+  height: auto; 
+  margin-bottom: 10px; 
+`;
+
 const StyledHeader = styled.header`
   background-color: lightgrey;
   box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
@@ -17,6 +23,19 @@ const StyledHeader = styled.header`
   width: 100%;
 `;
 
+const LogoMenuContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
+
 export default function Header(props) {
-  return <StyledHeader>{props.children}</StyledHeader>;
+  return (
+    <StyledHeader>
+      <LogoMenuContainer>
+        <StyledLogo src="/logo192.png" alt="Ethernet logo" />
+        <div>{props.children}</div> 
+      </LogoMenuContainer>
+    </StyledHeader>
+  );
 }
