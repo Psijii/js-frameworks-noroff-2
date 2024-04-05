@@ -57,4 +57,10 @@ This will start the development server and open the application in your default 
 ## Browser Support
 This project aims to support modern browsers including the latest versions of Chrome, Firefox, and Safari.
 
+## Known issues
+There are known issues during testing that was difficult to resolve before the deadline. Otherwise the app 
+is in working condition. 
+In console there is a warning about validateDOMnesting, but it seems to be related to React itself.
+
+
 
