@@ -7,11 +7,8 @@ import { CartContext } from "../components/CartProvider";
 
 import PropTypes from 'prop-types';
 
-export default function Total({ total }) {
-  if (isNaN(total)) {
-    return <div>No items in the cart</div>;
-  }
-
+export default function Total() {
+  const { total } = useContext(CartContext);
   return <div>Your total is: {parseFloat(total).toFixed(2)} NOK</div>;
 }
 
