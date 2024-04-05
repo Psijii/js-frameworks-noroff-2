@@ -14,13 +14,17 @@ This will install all the required dependencies listed in the package.json file.
 ### Components installation
 For specific components used in this project, you can install them individually using `npm`. Here's how to install each component:
 
-```npm install @fortawesome/fontawesome-free @fortawesome/fontawesome-svg-core @hookform/resolvers @testing-library/jest-dom @testing-library/react @testing-library/user-event react react-dom react-hook-form react-router-dom styled-components web-vitals yup```
+```
+npm install @fortawesome/fontawesome-free @fortawesome/fontawesome-svg-core @hookform/resolvers @testing-library/jest-dom @testing-library/react @testing-library/user-event react react-dom react-hook-form react-router-dom styled-components web-vitals yup
+```
 
 Alternatively, you can install each component separately:
 
-`npm install react-router-dom`
-`npm install yup`
-`npm install styled-components`
+```
+npm install react-router-dom
+npm install yup
+npm install styled-components
+```
 
 ## Usage
 After installing dependencies, you can start the development server using the following command:
