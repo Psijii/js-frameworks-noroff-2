@@ -5,11 +5,9 @@
  * @returns {JSX.Element|null} The rendered product list or null if no products are provided.
  */
 import { Product } from "./Product";
+import PropTypes from 'prop-types';
 
-export default function ProductList({ products }) {
-  if (!products || !products.length) {
-    return null; 
-  }
+export default function ProductList({ products = [] }) {
 
   return (
     <div className="product-container">
@@ -19,3 +17,11 @@ export default function ProductList({ products }) {
     </div>
   );
 }
+
+ProductList.propTypes = {
+  products: PropTypes.arrayOf(PropTypes.shape({
+    id: PropTypes.string.isRequired,
+    imageUrl: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+  })),
+};
