@@ -16,7 +16,8 @@ function Footer() {
           <a href="https://twitter.com"><i className="fab fa-twitter"></i></a>&nbsp;
           <a href="https://instagram.com"><i className="fab fa-instagram"></i></a>&nbsp;
           <a href="https://linkedin.com"><i className="fab fa-linkedin"></i></a>&nbsp;
-          <a href="https://youtube.com"><i className="fab fa-youtube"></i></a>
+          <a href="https://youtube.com"><i className="fab fa-youtube"></i></a>&nbsp;
+          <a href="https://pinterest.com"><i className="fab fa-pinterest"></i></a>&nbsp;
         </div>
         <div style={contactContainer}>
           <p>Contact us: hello@ethernetshop.com</p>
@@ -68,6 +69,7 @@ const socialLinksContainer = {
  */
 const contactContainer = {
   textAlign: "center",
+  marginBottom: "-15px",
 };
 
 /**
