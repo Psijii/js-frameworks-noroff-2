@@ -1,4 +1,5 @@
 import { useState } from "react";
+import PropTypes from 'prop-types';
 /**
  * SearchBar component that allows users to search for products.
  * @param {Object} props - The component props.
@@ -13,7 +14,7 @@ const SearchBar = ({ setSearchResults }) => {
    * Fetches data from the API and filters the results based on the search input.
    * @param {string} value - The search input value.
    */
-  
+
   const fetchData = (value) => {
     fetch("https://api.noroff.dev/api/v1/online-shop")
       .then((response) => response.json())
@@ -53,6 +54,9 @@ const SearchBar = ({ setSearchResults }) => {
       </form>
     </div>
   );
+};
+SearchBar.propTypes = {
+  setSearchResults: PropTypes.func.isRequired,
 };
 
 export default SearchBar;
