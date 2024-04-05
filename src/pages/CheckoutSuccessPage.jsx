@@ -9,6 +9,7 @@ export default function CheckoutSuccessPage() {
   return (
     <div className="checkout-success">
       <h1>Successfully checked out.</h1>
+      <h2>Shop with us again soon!</h2>
       <Link to="/">
         <button
           style={{
@@ -17,7 +18,7 @@ export default function CheckoutSuccessPage() {
             display: "block", 
           }}
           className={styles.primary}>
-          Back to home page
+          Back to shop
         </button>
       </Link>
     </div>

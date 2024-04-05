@@ -21,7 +21,7 @@ import "./Product.css";
 import styles from "./Button.module.css";
 import Reviews from "./Reviews";
 
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 
 export default function SingleProduct({
   id,
@@ -69,12 +69,12 @@ export default function SingleProduct({
   );
 }
 
-SingleProduct.propTypes = {
-  id: PropTypes.string.isRequired,
-  title: PropTypes.string.isRequired,
-  imageUrl: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
-  discountedPrice: PropTypes.number.isRequired,
-  price: PropTypes.number.isRequired,
-  reviews: PropTypes.array.isRequired,
-};
+// SingleProduct.propTypes = {
+//   id: PropTypes.string.isRequired,
+//   title: PropTypes.string.isRequired,
+//   imageUrl: PropTypes.string.isRequired,
+//   description: PropTypes.string.isRequired,
+//   discountedPrice: PropTypes.number.isRequired,
+//   price: PropTypes.number.isRequired,
+//   reviews: PropTypes.array.isRequired,
+// };

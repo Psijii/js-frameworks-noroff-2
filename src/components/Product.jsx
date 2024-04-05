@@ -9,7 +9,7 @@
  * @returns {JSX.Element} The rendered product card.
  */
 import { Link } from "react-router-dom";
-import PropTypes from 'prop-types'; 
+// import PropTypes from 'prop-types'; 
 
 import "./Product.css";
 
@@ -26,11 +26,11 @@ export function Product({ productData }) {
   );
 }
 
-Product.propTypes = {
-  productData: PropTypes.shape({
-    imageUrl: PropTypes.string.isRequired,
-    title: PropTypes.string.isRequired,
-    id: PropTypes.string.isRequired,
-  }).isRequired,
-};
+// Product.propTypes = {
+//   productData: PropTypes.shape({
+//     imageUrl: PropTypes.string.isRequired,
+//     title: PropTypes.string.isRequired,
+//     id: PropTypes.string.isRequired,
+//   }).isRequired,
+// };
 

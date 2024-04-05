@@ -8,7 +8,7 @@
  * @returns {JSX.Element} The rendered cart item component.
  */
 import React from "react";
-import PropTypes from 'prop-types'; 
+// import PropTypes from 'prop-types'; 
 
 export default function CartProducts({ cartItem }) {
   const { title, discountedPrice } = cartItem;
@@ -23,9 +23,9 @@ export default function CartProducts({ cartItem }) {
   );
 }
 
-CartProducts.propTypes = {
-  cartItem: PropTypes.shape({
-    title: PropTypes.string.isRequired,
-    discountedPrice: PropTypes.number.isRequired,
-  }).isRequired,
-};
+// CartProducts.propTypes = {
+//   cartItem: PropTypes.shape({
+//     title: PropTypes.string.isRequired,
+//     discountedPrice: PropTypes.number.isRequired,
+//   }).isRequired,
+// };

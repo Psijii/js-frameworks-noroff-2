@@ -5,7 +5,7 @@
  * @returns {JSX.Element} - The rendered list of reviews.
  */
 import Review from "./Review";
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 
 export default function Reviews({ reviews }) {
   return (
@@ -17,11 +17,11 @@ export default function Reviews({ reviews }) {
   );
 }
 
-Reviews.propTypes = {
-  reviews: PropTypes.arrayOf(PropTypes.shape({
-    id: PropTypes.string.isRequired,
-    username: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired,
-    rating: PropTypes.number.isRequired,
-  })).isRequired,
-};
+// Reviews.propTypes = {
+//   reviews: PropTypes.arrayOf(PropTypes.shape({
+//     id: PropTypes.string.isRequired,
+//     username: PropTypes.string.isRequired,
+//     description: PropTypes.string.isRequired,
+//     rating: PropTypes.number.isRequired,
+//   })).isRequired,
+// };

@@ -7,7 +7,7 @@
  * @returns {JSX.Element} - The rendered SearchList component.
  */
 import SingleSearchResult from "./SearchResult";
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 
 const SearchList = ({ searchResults }) => {
   return (
@@ -20,6 +20,6 @@ const SearchList = ({ searchResults }) => {
 };
 export default SearchList;
 
-SearchList.propTypes = {
-  searchResults: PropTypes.array.isRequired,
-};
+// SearchList.propTypes = {
+//   searchResults: PropTypes.array.isRequired,
+// };

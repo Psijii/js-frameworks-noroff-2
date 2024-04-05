@@ -1,5 +1,5 @@
 import { useState } from "react";
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 /**
  * SearchBar component that allows users to search for products.
  * @param {Object} props - The component props.
@@ -55,8 +55,8 @@ const SearchBar = ({ setSearchResults }) => {
     </div>
   );
 };
-SearchBar.propTypes = {
-  setSearchResults: PropTypes.func.isRequired,
-};
+// SearchBar.propTypes = {
+//   setSearchResults: PropTypes.func.isRequired,
+// };
 
 export default SearchBar;
