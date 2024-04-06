@@ -3,7 +3,10 @@
 ## Description
 
 This is a school project for Noroff in the course of JavaScript Frameworks, spring 2024.
+
 **This is made for education purposes only.**
+
+Weeks of the log is missing due to forgetting to make repositories.
 
 ## Installation
 
