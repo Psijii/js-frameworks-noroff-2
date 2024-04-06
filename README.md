@@ -17,17 +17,15 @@ This will install all the required dependencies listed in the package.json file.
 
 For specific components used in this project, you can install them individually using `npm`. Here's how to install each component:
 
-```
-npm install @fortawesome/fontawesome-free @fortawesome/fontawesome-svg-core @hookform/resolvers @testing-library/jest-dom @testing-library/react @testing-library/user-event react react-dom react-hook-form react-router-dom styled-components web-vitals yup
-```
+```npm install @fortawesome/fontawesome-free @fortawesome/fontawesome-svg-core @hookform/resolvers @testing-library/jest-dom @testing-library/react @testing-library/user-event react react-dom react-hook-form react-router-dom styled-components web-vitals yup```
 
 Alternatively, you can install each component separately:
 
-```
-npm install react-router-dom
-npm install yup
-npm install styled-components
-```
+`npm install react-router-dom`
+
+`npm install yup`
+
+`npm install styled-components`
 
 ## Usage
 
@@ -66,9 +64,6 @@ This project aims to support modern browsers including the latest versions of Ch
 
 ## Known issues
 
-There are known issues during testing that was difficult to resolve before the deadline. Otherwise the app 
-is in working condition. 
+There are known issues during testing that was difficult to resolve before the deadline. Otherwise the app
+is in working condition.
 In console there is a warning about validateDOMnesting, but it seems to be related to React itself.
-
-
-

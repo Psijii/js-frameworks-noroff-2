@@ -69,7 +69,6 @@ const socialLinksContainer = {
  */
 const contactContainer = {
   textAlign: "center",
-  marginBottom: "-15px",
 };
 
 /**

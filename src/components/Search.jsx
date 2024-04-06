@@ -43,6 +43,7 @@ const SearchBar = ({ setSearchResults }) => {
 
   return (
     <div className="search-bar">
+      <br />
       <form>
         <input
           id="searchInput"
